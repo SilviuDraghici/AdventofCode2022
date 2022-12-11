@@ -11,15 +11,15 @@
 
 if __name__ == "__main__":
   print("")
- 
-  fileName = ''
-  inputFile = open(fileName, 'r') 
-
+  
+  fileName = 'input_test.txt'
+  inputFile = open(fileName, 'r')
+  
   line = inputFile.readline()
   while line:
     line = line.strip()
     
-    
+    print(line)
     
     line = inputFile.readline()
   inputFile.close()
