@@ -5,12 +5,8 @@
 
 '''
 
-# in case I want to specify file with command line
-#import sys
-#fileName = sys.argv[1]
-
 if __name__ == "__main__":
-  print("")
+  print(f"")
   
   fileName = 'input_test.txt'
   inputFile = open(fileName, 'r')
@@ -24,4 +20,4 @@ if __name__ == "__main__":
     line = inputFile.readline()
   inputFile.close()
 
-  print("")
+  print(f"")
